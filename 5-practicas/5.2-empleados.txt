@@ -1,0 +1,26 @@
+
+Descripción:
+La aplicación web a desarrollar simulará un sistema de registro de empleados en una empresa. 
+Se utilizará la herencia en JavaScript para definir una clase "Empleado" con propiedades 
+básicas como nombre, apellido, edad, salario, etc. Además, se crearán subclases como "Gerente", 
+"Asistente", "Secretaria", etc., que hereden de la clase "Empleado" y añadan propiedades
+ específicas para cada tipo de empleado.
+
+Para permitir el registro de nuevos empleados, la aplicación web utilizará el DOM en JavaScript 
+para crear una interfaz gráfica de usuario. En dicha interfaz, se podrán ingresar y actualizar 
+la información de cada empleado, y se mostrará una lista de todos los empleados registrados en 
+la empresa. La información de cada empleado se almacenará en un objeto o en una base de datos local.
+
+Requerimientos funcionales:
+
+1. La aplicación web debe permitir el registro de nuevos empleados, ingresando su información en una interfaz gráfica de usuario.
+2. La aplicación web debe permitir la actualización de la información de un empleado registrado.
+3. La aplicación web debe permitir la eliminación de un empleado registrado.
+4. La aplicación web debe mostrar una lista de todos los empleados registrados en la empresa.
+
+Requerimientos no funcionales:
+
+1. La aplicación web debe ser fácil de usar para los usuarios, con una interfaz gráfica de usuario intuitiva y clara.
+2. La aplicación web debe ser compatible con diferentes navegadores web y dispositivos.
+3. La información de los empleados debe almacenarse de forma segura, ya sea en un objeto o en una base de datos local.
+4. La aplicación web debe tener una buena velocidad de respuesta y rendimiento para una experiencia de usuario óptima.

@@ -1,0 +1,35 @@
+Proyectito: Juego de Cartas
+
+Descripción del proyectito:
+El objetivo de este proyectito es crear un juego de cartas simple en JavaScript utilizando conceptos de programación orientada a objetos (POO). El juego debe permitir a los jugadores barajar y repartir las cartas, y también realizar acciones como jugar una carta y comprobar si se ha ganado la partida.
+
+Requisitos del proyecto:
+
+1) Crear una clase llamada "Carta" que tenga las siguientes propiedades:
+
+"valor": el valor de la carta (por ejemplo, "A", "2", "3", ..., "10", "J", "Q", "K").
+"simbolo": el simbolo de la carta (por ejemplo, "Corazones", "Diamantes", "Tréboles", "Picas").
+
+2) Crear una clase llamada "Baraja" que tenga los siguientes métodos:
+
+"crearBaraja": crea una baraja de cartas, es decir, un array de instancias de la clase "Carta", que contiene todas las cartas de una baraja de póker estándar (52 cartas).
+"barajar": baraja las cartas de la baraja de forma aleatoria.
+"repartirCarta": reparte una carta de la baraja y la devuelve.
+"mostrarBaraja": muestra la baraja de cartas en la consola.
+
+3) Crear una clase llamada "Jugador" que tenga las siguientes propiedades:
+
+"nombre": el nombre del jugador.
+"mano": un array que representa la mano del jugador, es decir, las cartas que tiene en su poder.
+
+4) En la clase "Jugador", crear los siguientes métodos:
+
+"tomarCarta": recibe una carta como parámetro y la agrega a la mano del jugador.
+"jugarCarta": recibe una carta como parámetro, la elimina de la mano del jugador y la muestra en la consola como la carta jugada.
+"comprobarGanador": comprueba si el jugador ha ganado la partida, por ejemplo, si ya no tiene cartas en su mano.
+
+5) Crear instancias de las clases "Baraja" y "Jugador" en el archivo principal de JavaScript.
+
+6) Implementar la lógica del juego utilizando los métodos de las clases "Baraja" y "Jugador", como barajar, repartir cartas, jugar cartas, etc.
+
+7) Mostrar la información del juego en la interfaz de usuario de la aplicación, como las cartas en la mano de cada jugador, las cartas jugadas, etc.

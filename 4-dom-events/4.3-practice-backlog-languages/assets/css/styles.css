@@ -1,0 +1,18 @@
+.list-group-item.d-flex.justify-content-between:hover div i {
+    display: none;
+  }
+  
+  .list-group-item.d-flex.justify-content-between:hover div button {
+    display: inline
+  }
+  
+  button.bi-trash3-fill {
+    padding: 0;
+    border: none;
+    background: none;
+    display: none;
+  }
+  
+  .checbox-container {
+    margin-top: 10px;
+  }

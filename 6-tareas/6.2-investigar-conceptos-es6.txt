@@ -1,0 +1,14 @@
+For/of y for/in.
+Map vs forEach.
+Default parameters. 
+Spread operator.
+Rest operator.
+Object entries y values.
+Push.
+Splice.
+Includes.
+Filter.
+Find.
+FindIndex.
+
+

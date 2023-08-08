@@ -1,0 +1,25 @@
+
+Descripción:
+Se debe crear una aplicación de notas en línea utilizando JavaScript y el DOM. 
+La aplicación debe permitir a los usuarios crear y guardar notas, así como 
+también editar y eliminar notas existentes. Para ello, se puede utilizar la herencia 
+para definir una clase "Nota" con propiedades como título, contenido, fecha de creación, etc. 
+Luego se pueden crear subclases como "Nota simple", "Lista de tareas", "Recordatorio", etc., 
+que hereden de la clase "Nota" y añadan propiedades específicas para cada tipo de nota.
+
+Requerimientos funcionales:
+
+1. La aplicación debe permitir a los usuarios crear notas y guardarlas en una lista.
+2. Cada nota debe tener un título, un contenido y una fecha de creación.
+3. La aplicación debe permitir a los usuarios editar y eliminar notas existentes.
+4. Se deben crear subclases como "Nota simple", "Lista de tareas", "Recordatorio", etc., que 
+    hereden de la clase "Nota" y añadan propiedades específicas para cada tipo de nota.
+5. La aplicación debe permitir al usuario seleccionar el tipo de nota que desea crear y mostrar 
+los campos relevantes para ese tipo de nota.
+
+Requerimientos no funcionales:
+
+1. La aplicación debe ser fácil de usar e intuitiva.
+2. La aplicación debe ser responsive y funcionar en diferentes dispositivos y tamaños de pantalla.
+3. La aplicación debe ser segura y proteger la información de los usuarios.
+4. La aplicación debe tener una apariencia atractiva y moderna.

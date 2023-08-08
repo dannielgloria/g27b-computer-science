@@ -1,0 +1,122 @@
+Resolver los siguientes problemas
+
+1. Invitar a un amigo a comer. (lenguaje en natural)
+2. Invitar a sus amigos a ir al cine. (lenguaje en natural y diagrama de flujo)
+3. Realizar una calculadora que sume dos 2 números. (diagrama flujo, pseudocodigo)
+
+4. Crear un programa que pueda calcular el perímetro y área de cualquier figura (círculo, triángulo y un rectángulo).
+5. Calcular la suma de los números qué hay entre 1 y un número que el usuario ingrese por teclado (debe ser mayor o igual a 2).
+6. Realizar un programa que calcule el factorial de un numero.
+(diagrama de flujo y pseudocodigo)
+
+7. Sucesión de Fibonacci
+8. Calculadora de matrices cuadradas (suma, resta y multiplicación).
+9. Realizar un programa que te pregunte cada 15 segundos que estás haciendo y si tu respuesta no es “trabajar”, te pida depositar $5 en tu alcancia. El programa debe terminar automáticamente a los 2min y mostrarnos cuánto dinero tenemos ahorrado.
+10. Dado un arreglo de nombres buscar cuáles de ellos tienen una letra a en su nombre y cambiarla por una @.
+(codigo JS)
+
+
+Invitar un amigo a comer:
+Me comunicaría con el amigo
+si me contesta le preguntaría si comería conmigo
+si dice que si, iríamos a comer
+si dice que no, le digo que muchas gracias por su falsa amistad :'v
+después lo pondría a pagar la comida por mal amigo.
+
+
+
+
+llamar a un amigo 
+saludar
+preguntar como se encuentra 
+comentarle sobre el interes de una pelicula en el cine
+preguntarle sobre disponibilidad de su tiempo
+revisar la cartelera
+confirmar día
+enviarle los horarios de la pelicula
+confirmar el evento.
+ir a ver la pelicula
+
+
+
+inicio
+tener un amigo
+preguntarle si quiere comer
+si dice que.. invitarlo a algun lugar fancy (hora, fecha y lugar)
+si dice que no, le digo que muchas gracias por su falsa amistad :'v
+fin
+
+
+Seleccionar al amigo que deseo invitar
+Iniciar la conversación 
+Escribir la invitación
+Esperar confirmación de aceptación 
+Acordar día y lugar de cita
+Buscar un lugar apto para la cita
+Hacer reservación 
+Llegar al lugar acordado en el horario acordado
+Esperar al amigo
+irnos juntos al restaurante
+Comer
+Pagar 
+Irnos
+Fin
+
+
+
+
+
+
+
+
+
+Razonamiento
+Matematico
+congruente
+inferencia valida
+razon
+argumentacion
+orden
+
+Logica
+Pensamiento que es congruente, bien argumentado y sea ordenado.
+
+scrum master
+product owner
+product manager
+pmi
+
+diseño
+
+front end
+
+back end
+
+administrador base datos
+
+
+IA prompter engineering?
+
+
+
+
+
+# clonar repo y obtener rama develop
+git clone url
+cd g24b-computer-science
+git fetch && git checkout develop
+
+# actualizar cambios
+git pull origin develop
+
+# Primer commit en mi repo
+
+# crear el archivo
+touch hola.txt
+
+# hace commit
+git add .
+git commit -m "primer commit"
+
+# subir a repositorio
+git push origin main

@@ -1,0 +1,65 @@
+Con el objeto pokemon hacer las siguientes actividades
+
+1. Hacer una funcion que cuente el numero de propiedades que tiene el objeto.
+2. Recorrer el arreglo abilities para comprobar si exist una con el nombre 'flametower'
+3. Recorrer el objeto para crear un nuevo objeto que solo contenga las propiedades name (obtenerlo de forms).
+
+const pokemon = {
+  abilities: [
+    {
+      ability: {
+        name: limber,
+        url: https://pokeapi.co/api/v2/ability/7/
+      },
+      is_hidden: false,
+      slot: 1
+    },
+    {
+      ability: {
+        name: imposter,
+        url: https://pokeapi.co/api/v2/ability/150/
+      },
+      is_hidden: true,
+      slot: 3
+    }
+  ],
+  base_experience: 101,
+  forms: [
+    {
+      name: ditto,
+      url: https://pokeapi.co/api/v2/pokemon-form/132/
+    }
+  ],
+  game_indices: [
+    {
+      game_index: 76,
+      version: {
+        name: red,
+        url: https://pokeapi.co/api/v2/version/1/
+      }
+    },
+    {
+      game_index: 76,
+      version: {
+        name: blue,
+        url: https://pokeapi.co/api/v2/version/2/
+      }
+    },
+    {
+      game_index: 76,
+      version: {
+        name: yellow,
+        url: https://pokeapi.co/api/v2/version/3/
+      }
+    },
+    {
+      game_index: 132,
+      version: {
+        name: gold,
+        url: https://pokeapi.co/api/v2/version/4/
+      }
+    },
+  ],
+  height: 3,
+}
+

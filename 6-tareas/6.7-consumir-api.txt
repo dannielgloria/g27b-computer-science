@@ -1,0 +1,1 @@
+Consumir el api de star wars con ayuda de un fetch y mostrar los datos en la consola.
