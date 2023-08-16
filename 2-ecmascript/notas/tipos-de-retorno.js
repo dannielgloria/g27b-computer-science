@@ -30,3 +30,12 @@ function suma(numero1, numero2) {
 }
 const resultado = suma(3, 5);
 console.log('resultado: ', resultado);
+
+
+
+const iva = calculaIVA(100)
+
+function calculaIVA(saldo) {
+    resultado = (saldo)*0.16
+    return resultado
+}

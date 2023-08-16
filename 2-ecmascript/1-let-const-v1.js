@@ -2,10 +2,13 @@
 // let: Permite definir una variable en un scope especifico. // es6
 // const: Permite definir variables en un scope especifico pero que nunca cambian de valor. // es6
 
+var perro = "guaf"
 
 function sayHello(name) {
     console.log('Hola ', name)
 }
+
+
 // creacion y asignacion (inicializacion)
 // let name = 'montoya';
 // creacion

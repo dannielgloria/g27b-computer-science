@@ -1,4 +1,4 @@
-saludar();
+//saludar();
 // hoisting: elevar las funciones al principio del codigo
 console.log(suma(10, 20));
 function suma(num1, num2) {

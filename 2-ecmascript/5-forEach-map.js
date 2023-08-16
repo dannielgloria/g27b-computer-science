@@ -20,15 +20,15 @@ const array = [100, 90, 110, 101, 12, 70];
 //    console.log(`arr[${index}] = ${element}`); // arr[1] = 100
 // });
 
+const array = [100, 90, 110, 101, 12, 70];
 console.log(`Ciclo ForEach`);
-const resultadoForEach = array.forEach((element, index) => {
-   console.log(`arr[${index}] = ${element}`);
+const resultadoForEach = array.forEach((element) => {
+   element = element + 5
 });
 console.log(`resultadoForEach: ${resultadoForEach}`);
 
 console.log(`Ciclo Map`);
-const resultadoMap = array.map((element, index) => {
-   console.log(`arr[${index}] = ${element}`);
-   return element;
+const resultadoMap = array.map((element) => {
+   element = element + 5
 });
 console.log(`resultadoMap: ${resultadoMap}`);

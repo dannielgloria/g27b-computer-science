@@ -1,20 +1,3 @@
-// function opera(operador, numeros) {
-//     let result = 0;
-//     if (operador === '+') {
-//         result = numeros.reduce((previousValue, currentValue) =>  previousValue + currentValue );
-//         // reduce = reducir = compactar
-//     } else if (operador === '-') {
-//         // resta
-//         result = numeros.reduce((previousValue, currentValue) =>  previousValue - currentValue );
-//     } else if (operador === '*') {
-//         // resta
-//         result = numeros.reduce((previousValue, currentValue) =>  previousValue * currentValue );
-//     }
-//     return result;
-// }
-// const resultado = opera('*', [9, 10, 11, 30, 40]);
-// console.log('resultado: ', resultado);
-
 
 function opera(operador, ...numeros) { // rest operator ...numeros
     let result = 0;
