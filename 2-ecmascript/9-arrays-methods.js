@@ -1,5 +1,5 @@
 const numeros = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60];
-// map: itera el arreglo y nos puede devolver cada valor.
+// map: mapea el arreglo y nos puede devolver cada valor.
 // forEach:  itera el arreglo pero no nos puede devolver cada valor.
 // reduce: reduce los elementos de un arreglo en un solo valor.
 // push: agrega elementos a un arreglo al final.
