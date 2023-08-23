@@ -30,12 +30,31 @@ class Pais{
 object of the `Pais` class with the name "Méjico", a population of "126.7 millones", and coordinates
 of "23.634501, -102.552784". The object is then assigned to the variable `mexico`. */
 var mexico = new Pais("Méjico", "126.7 millones","23.634501, -102.552784");
+
+/* The line `var tangamandapio = new Pais("Tangamandapio", 2, "0,-0");` is creating a new object of the
+`Pais` class with the name "Tangamandapio", a population of 2, and coordinates of "0,-0". The object
+is then assigned to the variable `tangamandapio`. */
 var tangamandapio = new Pais("Tangamandapio", 2, "0,-0");
 
 /* `console.log(mexico);` is logging the `mexico` object to the console, which will display the
 object's properties and their values. */
 console.log(mexico);
+/**
+ * pais{
+ *  coordenadas: "23.634501, -102.552784",
+ *  noPoblacion: "126.7 millones",
+ *  nombre: "Méjico"
+ * }
+ */
+
 console.log(tangamandapio);
+/**
+ * pais{
+ *  coordenadas: "0, -0",
+ *  noPoblacion: 2,
+ *  nombre: "Tangamandapio"
+ * }
+ */
 
 /* `mexico.info();` is calling the `info()` method of the `mexico` object, which logs information about
 the country's name, coordinates, and population to the console. */

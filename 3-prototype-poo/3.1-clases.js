@@ -8,7 +8,7 @@ class Persona {
         this.genero = genero;
     }
 
-    // hacemos los metodos
+    // hacemos los metodos/funciones
     hablar(){
         console.log("Que onda! soy " + this.nombre + " vamos por unas tortas, te late?");
     }

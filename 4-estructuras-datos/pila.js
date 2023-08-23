@@ -90,6 +90,8 @@ pila1.push(3)
 // console.log(`Dato eliminado: ${datoEliminado}`)
 
 
+/* The PilaObjeto class is a JavaScript implementation of a stack data structure that can store and
+manipulate objects. */
 class PilaObjeto {
   constructor(){
     this.pila = {}

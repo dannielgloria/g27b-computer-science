@@ -43,6 +43,6 @@ console.log(chanchito1.nombre); // "Pato" (propiedad de la clase padre)
 console.log(chanchito1.raza); // "Panza de olla" (propiedad de la clase hija)
 console.log(chanchito1.color)
 
-chanchito1.comunicarse();
-chanchito1.correr();
-chanchito1.comunicarseAnimal();
+chanchito1.correr()
+chanchito1.comunicarse()
+chanchito1.comunicarseAnimal()
