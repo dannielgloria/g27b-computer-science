@@ -73,17 +73,84 @@ console.log('Usando for',ordenarArrayNasty(numeros))
  * rectángulo.
  */
 
+class Rectangulo{
+    constructor(ancho, alto){
+        this.ancho= ancho;
+        this.alto= alto;
+    }
+
+    area(){
+        return this.ancho * this.alto
+    }
+
+    perimetro(){
+        return 2*this.ancho + 2*this.alto
+    }
+}
+
+const rectangulo = new Rectangulo(3.14161, 95);
+
+console.log('Área de rectangulo =', rectangulo.area())
+console.log('Área de rectangulo =', rectangulo.perimetro())
 
 /**
  * Crear una función "factorial" que acepte un número 
  * como parámetro y devuelva su factorial 
  * (el producto de todos los números enteros positivos
  *  desde 1 hasta el número).
+ * 
+ * 5! = 5*4*3*2*1 = 120
+ * 
+ * 0!= 1
+ * 1!=1
+ * 
  */
 
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * factorial(n-1);
+    }
+}
+
+console.log('Factorial de 5 es ',factorial(5));
+console.log('Factorial de -1 es ',factorial(1));
 
 /**
  * Crear un objeto "agenda" que permita agregar, 
  * eliminar y buscar contactos. Cada contacto debe 
  * tener un nombre, un email y un teléfono.
  */
+
+class Agenda{
+    constructor(){
+        this.contactos = [];
+    }
+
+    agregarContacto( nombre, email, telefono){
+        const nuevoContacto = {nombre, email, telefono};
+        this.contactos.push(nuevoContacto);
+    }
+
+    eliminarContacto(nombre){
+        this.contactos = this.contactos.filter(contacto => contacto.nombre !== nombre);
+    }
+
+    buscarContacto(nombre){
+        return this.contactos = this.contactos.find(contacto => contacto.nombre === nombre);
+    }
+}
+
+const agenda = new Agenda();
+agenda.agregarContacto("Enrique","enrique.maya@gmail.com","005000");
+agenda.agregarContacto("Montoya","montoyita7@gmail.com","55000000001");
+agenda.agregarContacto("Adriana","adriana.contreras@gmail.com","007");
+
+console.log("Contactos en la agenda: ", agenda.contactos);
+
+agenda.eliminarContacto("Enrique")
+console.log("Contactos en la agenda: ", agenda.contactos);
+
+const contactoAdriana = agenda.buscarContacto("Adriana")
+console.log("Informacion de Adriana: ", contactoAdriana)
