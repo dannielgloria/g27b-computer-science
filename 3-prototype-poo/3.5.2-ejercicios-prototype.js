@@ -138,7 +138,15 @@ class Agenda{
     }
 
     buscarContacto(nombre){
-        return this.contactos = this.contactos.find(contacto => contacto.nombre === nombre);
+        var contacto = [];
+
+        return contacto = this.contactos.find(contacto => contacto.nombre === nombre);
+    }
+
+    buscarContactoPorLetra(letra){
+        var contacto = [];
+        
+        return contacto = this.contactos.filter(contacto => contacto.nombre[0] === letra);
     }
 }
 
@@ -146,11 +154,25 @@ const agenda = new Agenda();
 agenda.agregarContacto("Enrique","enrique.maya@gmail.com","005000");
 agenda.agregarContacto("Montoya","montoyita7@gmail.com","55000000001");
 agenda.agregarContacto("Adriana","adriana.contreras@gmail.com","007");
+agenda.agregarContacto("Adrian","adrian.conti@gmail.com","008");
+agenda.agregarContacto("Adri","adri@gmail.com","009");
 
 console.log("Contactos en la agenda: ", agenda.contactos);
 
-agenda.eliminarContacto("Enrique")
+agenda.eliminarContacto("Montoya")
+
 console.log("Contactos en la agenda: ", agenda.contactos);
+
 
 const contactoAdriana = agenda.buscarContacto("Adriana")
 console.log("Informacion de Adriana: ", contactoAdriana)
+
+console.log("Contactos en la agenda: ", agenda.contactos);
+
+const contactoEnrique = agenda.buscarContacto("Enrique")
+console.log("Informacion de Enrique: ", contactoEnrique)
+
+console.log("Contactos en la agenda: ", agenda.contactos);
+
+const contactosA = agenda.buscarContactoPorLetra("A")
+console.log("Contactos en la agenda con la letra A: ", contactosA)
