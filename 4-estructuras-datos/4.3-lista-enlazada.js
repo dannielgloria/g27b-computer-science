@@ -7,7 +7,7 @@ class Nodo {
     }
   }
   
-  class ListaEnlazada {
+class ListaEnlazada {
     constructor() {
       this.cabeza = null; // Puntero al primer nodo en la lista.
     }
@@ -56,6 +56,18 @@ class Nodo {
         nodoActual = nodoActual.nodoSiguiente;
       }
     }
+
+    setHead(nodo){
+        if (!nodo|| !(nodo instanceof Nodo)) {
+            return console.log('EL nodo ingresado no es un nodo valido');
+        }
+        
+        this.delete(nodo.valor)
+        nodo.nodoSiguiente = this.cabeza; // El nodo proporcionado apuntara al nodo actual de la cabeza
+        this.cabeza = nodo; // El nodo proporcionado se convierte en la nueva cabeza
+
+
+    }
   }
 
   const listaEnlazada = new ListaEnlazada();
@@ -76,4 +88,9 @@ class Nodo {
   console.log('-----------------')
   listaEnlazada.prepend(7);
   listaEnlazada.append(235);
+  listaEnlazada.display();
+  console.log('-----------------')
+  
+  const nuevoCabeza = new Nodo(18)
+  listaEnlazada.setHead(nuevoCabeza);
   listaEnlazada.display();
